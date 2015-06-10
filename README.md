@@ -17,6 +17,8 @@
 
 A little module to read JSON files.
 
+If you want to write JSON files, check out [`w-json`](https://github.com/IonicaBizau/node-w-json).
+
 ## Installation
 
 ```sh
