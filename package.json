@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/IonicaBizau/node-r-json/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/node-r-json"
+  "homepage": "https://github.com/IonicaBizau/node-r-json",
+  "blah": {
+    "description": "If you want to write JSON files, check out [`w-json`](https://github.com/IonicaBizau/node-w-json)."
+  }
 }
