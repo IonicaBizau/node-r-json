@@ -1,6 +1,6 @@
 {
   "name": "r-json",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "A small module to read JSON files.",
   "main": "lib/index.js",
   "directories": {
@@ -18,8 +18,8 @@
     "json",
     "files"
   ],
-  "author": "Ionică Bizău <bizauionica@gmail.com>",
-  "license": "KINDLY",
+  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/IonicaBizau/node-r-json/issues"
   },
