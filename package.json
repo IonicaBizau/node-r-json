@@ -1,6 +1,6 @@
 {
   "name": "r-json",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "A small module to read JSON files.",
   "main": "lib/index.js",
   "directories": {

@@ -1,6 +1,6 @@
-# r-json [![Support this project][donate-now]][paypal-donations]
+# r-json [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/r-json.svg)](https://www.npmjs.com/package/r-json) [![Downloads](https://img.shields.io/npm/dt/r-json.svg)](https://www.npmjs.com/package/r-json) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
-A small module to read JSON files.
+> A small module to read JSON files.
 
 If you want to write JSON files, check out [`w-json`](https://github.com/IonicaBizau/node-w-json).
 
@@ -55,6 +55,8 @@ If you are using this library in one of your projects, add it in this list. :spa
 
  - [`engine-tools`](https://github.com/jillix/engine-tools) by jillix
 
+ - [`gh-notifier`](https://bitbucket.org/IonicaBizau/gh-notifier#readme)
+
  - [`ghcal`](https://github.com/IonicaBizau/ghcal)
 
  - [`git-stats`](https://github.com/IonicaBizau/git-stats)
@@ -63,7 +65,13 @@ If you are using this library in one of your projects, add it in this list. :spa
 
  - [`gpm`](https://github.com/IonicaBizau/gpm)
 
+ - [`idea`](https://github.com/IonicaBizau/idea)
+
  - [`namy`](https://github.com/IonicaBizau/namy)
+
+ - [`web-term`](https://github.com/IonicaBizau/web-term)
+
+ - [`youtube-album-uploader`](https://github.com/jpchip/youtube-album-uploader) by Jared Chapiewsky
 
 ## License
 
