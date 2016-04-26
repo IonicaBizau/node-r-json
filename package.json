@@ -1,6 +1,6 @@
 {
   "name": "r-json",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "A small module to read JSON files.",
   "main": "lib/index.js",
   "directories": {
@@ -26,5 +26,16 @@
   "homepage": "https://github.com/IonicaBizau/node-r-json",
   "blah": {
     "description": "If you want to write JSON files, check out [`w-json`](https://github.com/IonicaBizau/node-w-json)."
-  }
+  },
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "resources/",
+    "menu/",
+    "cli.js",
+    "index.js"
+  ]
 }
