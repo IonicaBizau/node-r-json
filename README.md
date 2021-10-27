@@ -86,6 +86,24 @@ ReadJson(__dirname + "/test.json", function (err, data) {
 
 // Read the same file synchronously
 console.log(ReadJson(__dirname + "/test.json"));
+
+// Read another JSON file asynchronously, with a default value and a custom w_json config
+ReadJson.defaultRead(
+    "./test2.json",
+    {myDefaultKey: "myDefaultValue"},
+    { new_line: true, space: 4},
+    function (err, data) {
+        console.log(err || data);
+    }
+);
+
+// Read the other JSON file synchronously, with a default value
+console.log(
+    ReadJson.defaultRead(
+        "./test2.json",
+        {myDefaultKey: "myDefaultValue"}
+    )
+);
 ```
 
 
@@ -122,6 +140,18 @@ There are few ways to get help:
 - **String** `path`: The JSON file path.
 - **Function** `callback`: An optional callback. If not passed, the function will run in sync mode.
 
+### `rJson_default(path, def_value, w_json_options, callback)`
+
+#### Params
+
+- **String** `path`: The JSON file path.
+- **Object** `def_value`: The Default Value
+- **Object|Number|Boolean|undefined** `w_json_options`: Optional: w-json config object containing the fields below.
+    If boolean, it will be handled as `new_line`, if number it will be handled as `space`.
+     - `space` (Number): An optional space value for beautifying the json output (default: `2`).
+     - `new_line` (Boolean): If `true`, a new line character will be added at the end of the stringified content.
+    You can refer to [node-w-json](https://github.com/IonicaBizau/node-w-json) docs for information on this
+- **Function** `callback`: An optional callback. If not passed, the function will run in sync mode.
 
 
 
