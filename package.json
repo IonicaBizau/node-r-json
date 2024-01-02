@@ -41,5 +41,8 @@
     "bloggify.js",
     "bloggify.json",
     "bloggify/"
-  ]
+  ],
+  "dependencies": {
+    "w-json": "1.3.10"
+  }
 }
