@@ -142,16 +142,21 @@ There are few ways to get help:
 
 ### `rJson_default(path, def_value, w_json_options, callback)`
 
+If there is some error in reading the JSON file, this would overwrite the file with the default
+     value and return the same.
+This uses [node-w-json](https://github.com/IonicaBizau/node-w-json) for writing the default JSON
+     value and so you can pass configs to node-w-json to beautify the file written
+
 #### Params
 
 - **String** `path`: The JSON file path.
 - **Object** `def_value`: The Default Value
-- **Object|Number|Boolean|undefined** `w_json_options`: Optional: w-json config object containing the fields below.
-    If boolean, it will be handled as `new_line`, if number it will be handled as `space`.
-     - `space` (Number): An optional space value for beautifying the json output (default: `2`).
-     - `new_line` (Boolean): If `true`, a new line character will be added at the end of the stringified content.
-    You can refer to [node-w-json](https://github.com/IonicaBizau/node-w-json) docs for information on this
+- **Object|Number|Boolean** `w_json_options`: Optional: w-json config object containing the fields below. If boolean, it will be handled as `new_line`, if number it will be handled as `space`.
+
+ - `space` (Number): An optional space value for beautifying the json output (default: `2`).
+ - `new_line` (Boolean): If `true`, a new line character will be added at the end of the stringified content.
 - **Function** `callback`: An optional callback. If not passed, the function will run in sync mode.
+
 
 
 
@@ -206,44 +211,48 @@ Thanks! :heart:
 If you are using this library in one of your projects, add it in this list. :sparkles:
 
  - `edit-json-file`
- - `tilda`
  - `emojic`
- - `safe-r-json`
+ - `tilda`
  - `r-package-json`
- - `git-stats`
  - `git-package-json`
- - `engine-parser`
- - `engine-tools`
- - `engine-composition-crud`
- - `np-init`
- - `packy`
+ - `safe-r-json`
+ - `git-stats`
  - `bloggify-plugin-class`
+ - `namy`
+ - `@acegoal07/file-tools`
+ - `ghcal`
+ - `engine-tools`
+ - `np-init`
  - `web-term`
  - `blah`
- - `ghcal`
- - `namy`
+ - `packy`
  - `made-in-romania`
- - `test-youtube-api`
- - `bible`
- - `alfred-melon-youtube`
- - `auto-geo-sunset`
- - `engine-app`
- - `youtube-album-uploader`
- - `gh-notifier`
- - `tithe`
- - `cdnjs-importer`
- - `@isysd/gpm`
- - `youtube-album-uploader-multiple`
- - `chewb-youtube-uploader`
- - `@dottjt/mediareade`
- - `ship-release`
- - `birthday`
- - `cli-sunset`
- - `gpm`
- - `idea`
- - `github-labeller`
- - `made-in-india`
  - `made-in-brazil`
+ - `github-labeller`
+ - `gpm`
+ - `engine-app`
+ - `engine-composition-crud`
+ - `@dottjt/mediareade`
+ - `tithe`
+ - `youtube-album-uploader`
+ - `youtube-album-uploader-multiple`
+ - `auto-geo-sunset`
+ - `test-youtube-api`
+ - `alfred-melon-youtube`
+ - `cli-sunset`
+ - `chewb-youtube-uploader`
+ - `birthday`
+ - `engine-parser`
+ - `generator-bootstrap-boilerplate-template`
+ - `bible`
+ - `gh-notifier`
+ - `ship-release`
+ - `@acegoal07/json-editor`
+ - `@everything-registry/sub-chunk-2519`
+ - `cdnjs-importer`
+ - `angularvezba`
+ - `made-in-india`
+ - `idea`
 
 
 
