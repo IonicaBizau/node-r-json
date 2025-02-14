@@ -1,6 +1,6 @@
 {
   "name": "r-json",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "description": "A small module to read JSON files.",
   "main": "lib/index.js",
   "directories": {
@@ -38,6 +38,8 @@
     "menu/",
     "cli.js",
     "index.js",
+    "index.d.ts",
+    "package-lock.json",
     "bloggify.js",
     "bloggify.json",
     "bloggify/"
